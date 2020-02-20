@@ -1,0 +1,63 @@
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 2;
+
+}
+ ul {
+	list-style:2;
+}
+ ul a{
+ 	font-size: green;
+ }
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 1;
+}
+h2 {
+	color: blue;
+	text-decoration: underline;
+	text-align:center;
+}
+h1{
+	color: pink;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+h2{
+	color: pink;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+h3{
+	color: green;
+	font-size: 40px;
+	text-align: center;
+n	text-decoration: underline;
+
+}
+h5{
+	color: purple;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+
+}

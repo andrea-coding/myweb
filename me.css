@@ -1,0 +1,58 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solide #68B95E;
+	background-color: purple;
+}
+li{
+	float:right;
+	display: inline;
+}
+li a{
+	display: block;
+	color:white;
+	text-align:center;
+	padding:20px 16px 12px;
+	text-decoration: underline;
+	font-size:20px;
+}
+li a:hover:not(.active){
+	background: #68B95E;
+}
+li a.active{
+	columns: yellow;
+	background-color: purple; 
+}
+.andy:after{
+	display: block;
+	clear: both;
+	visibility: hidden;
+	content: "";
+}
+.andy{
+	width: 100%;
+}
+
+.andy article,.andy section{
+	text-align:center;
+	height: 800px;
+	box-sizing: border-box;
+	padding: 80px;
+}
+.andy article{
+	background-color: green;
+	width: 50%;
+	float:left;
+}
+.andy section{
+	background-color: red;
+	width: 50%;
+	float:right;
+}
+.andyjessi{
+	background-color: purple;
+	text-align: center;
+	padding: 1px;
+}
